@@ -1,0 +1,42 @@
+{
+  "version": "3",
+  "packages": {
+    "specifiers": {
+      "npm:nbb": "npm:nbb@1.2.179",
+      "npm:nunjucks": "npm:nunjucks@3.2.4"
+    },
+    "npm": {
+      "a-sync-waterfall@1.0.1": {
+        "integrity": "sha512-RYTOHHdWipFUliRFMCS4X2Yn2X8M87V/OpSqWzKKOGhzqyUxzyVmhHDH9sAvG+ZuQf/TAOFsLCpMw09I1ufUnA==",
+        "dependencies": {}
+      },
+      "asap@2.0.6": {
+        "integrity": "sha512-BSHWgDSAiKs50o2Re8ppvp3seVHXSRM44cdSsT9FfNEUUZLOGWVCsiWaRPWM1Znn+mqZ1OfVZ3z3DWEzSp7hRA==",
+        "dependencies": {}
+      },
+      "commander@5.1.0": {
+        "integrity": "sha512-P0CysNDQ7rtVw4QIQtm+MRxV66vKFSvlsQvGYXZWR3qFU0jlMKHZZZgw8e+8DSah4UDKMqnknRDQz+xuQXQ/Zg==",
+        "dependencies": {}
+      },
+      "import-meta-resolve@2.2.2": {
+        "integrity": "sha512-f8KcQ1D80V7RnqVm+/lirO9zkOxjGxhaTC1IPrBGd3MEfNgmNG67tSUO9gTi2F3Blr2Az6g1vocaxzkVnWl9MA==",
+        "dependencies": {}
+      },
+      "nbb@1.2.179": {
+        "integrity": "sha512-9+bUNFxbUAML5fMpkwftFyq3O0mV4vFqB22wS9BFerdoPrNi6MeFk8n4gmoDuBP0dmY8K1l8XSuYCGlz78KCcQ==",
+        "dependencies": {
+          "import-meta-resolve": "import-meta-resolve@2.2.2"
+        }
+      },
+      "nunjucks@3.2.4": {
+        "integrity": "sha512-26XRV6BhkgK0VOxfbU5cQI+ICFUtMLixv1noZn1tGU38kQH5A5nmmbk/O45xdyBhD1esk47nKrY0mvQpZIhRjQ==",
+        "dependencies": {
+          "a-sync-waterfall": "a-sync-waterfall@1.0.1",
+          "asap": "asap@2.0.6",
+          "commander": "commander@5.1.0"
+        }
+      }
+    }
+  },
+  "remote": {}
+}
