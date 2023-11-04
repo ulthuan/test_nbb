@@ -9,4 +9,4 @@ With that options activated is the same as launch the example in this way:
 
 `deno run --node-modules-dir --lock run_bb.ts`
 
-if you delete the config file and launch the example without the before flags you see that the example don't work and with the flags works properly
+if you delete the config file and launch the example without the before flags you see that the example doesn't work and with the flags it works properly
