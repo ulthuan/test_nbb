@@ -1,4 +1,14 @@
 {
-	"lock": true,
-	"nodeModulesDir": true
+	"lock": "deno.lock",
+	"nodeModulesDir": true,
+  "imports": {
+    "nunjucks": "npm:nunjucks",
+    "nbb": "npm:nbb",
+    "nbb/": "npm:/nbb/"
+  },
+"tasks": {
+    "nbb": "deno run -A \"npm:nbb\"",
+    "update_cache": "deno cache $(cat deno.json | jq -r '[.imports[] | select(. |contains(\"npm:\"))] | join(\" \")')",
+    "nbb_compile": "deno task nbb bundle examples.cljs -o nbb_out.js; deno compile -A nbb_out.js -o test_nbb; rm -f nbb_out.js" 
+  }
 }
