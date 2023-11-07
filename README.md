@@ -16,4 +16,3 @@ At the same time I add several tasks for help to develop and distribute your pro
 * update_cache: this task update the lock file and the node_modules directory
 * nbb: launch the nbb command for example `deno task nbb examples.cljs`
 * nbb_compile: generate the bundle of your program and after that launch the deno compile command.
-
